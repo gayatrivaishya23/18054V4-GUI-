@@ -102,7 +102,7 @@ public class V418054 {
     static Vector<Bill> bills = new Vector<>();
 
     // JDBC variables
-    private static final String URL = "jdbc:mysql://localhost:3307/hospital";
+    private static final String URL = "jdbc:mysql://localhost:3307/hospitaldb";
     private static final String USER = "root";
     private static final String PASSWORD = "";
     private Connection connection;
@@ -399,6 +399,6 @@ public class V418054 {
     }
 
     public static void main(String[] args) {
-        new HospitalManagementGUI();
+        new V418054();
     }
 }
